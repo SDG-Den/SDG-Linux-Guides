@@ -1,4 +1,4 @@
-
+WIP
 so, for your internet to work, you can generally check the following things in the following order (on any device):
 
 -1: is your network adapter detected?
