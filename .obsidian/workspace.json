@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "newbie-guides/Terminal 101.md",
+                "file": "pictures/nothing here yet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terminal 101"
+              "title": "nothing here yet"
             }
           }
         ]
@@ -182,6 +182,11 @@
   },
   "active": "01b25f704b4d0bc7",
   "lastOpenFiles": [
+    "examples/nothing here yet.md",
+    "videos/nothing here yet.md",
+    "scripts/nothing here yet.md",
+    "newbie-guides/Terminal 101.md",
+    "pictures/nothing here yet.md",
     "newbie-guides/SystemD for Dummies.md",
     "newbie-guides/Picking a Distro.md",
     "newbie-guides/Linux Troubleshooting 101.md",
@@ -196,7 +201,6 @@
     "other guides/Scripting 101.md",
     "other guides/Nice-to-have utilities.md",
     "other guides/Linux Kernel 101.md",
-    "README.md",
-    "newbie-guides/Terminal 101.md"
+    "README.md"
   ]
 }
