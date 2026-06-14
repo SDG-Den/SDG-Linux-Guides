@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pictures/nothing here yet.md",
+                "file": "newbie-guides/Picking a Distro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nothing here yet"
+              "title": "Picking a Distro"
             }
           }
         ]
@@ -182,14 +182,15 @@
   },
   "active": "01b25f704b4d0bc7",
   "lastOpenFiles": [
+    "newbie-guides/Internet Troubleshooting 101.md",
+    "newbie-guides/Linux Troubleshooting 101.md",
+    "pictures/nothing here yet.md",
     "examples/nothing here yet.md",
     "videos/nothing here yet.md",
     "scripts/nothing here yet.md",
     "newbie-guides/Terminal 101.md",
-    "pictures/nothing here yet.md",
     "newbie-guides/SystemD for Dummies.md",
     "newbie-guides/Picking a Distro.md",
-    "newbie-guides/Linux Troubleshooting 101.md",
     "newbie-guides/Linux Security.md",
     "newbie-guides/Installing Software.md",
     "newbie-guides/Dual-Booting for Dummies.md",

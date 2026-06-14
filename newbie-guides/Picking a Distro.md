@@ -122,6 +122,15 @@ If you change your mind on the distro family, you'll have to reinstall sadly.
 
 However, if you change your mind on the desktop environment, you can always install a different one. You can even have multiple and pick between them!
 
+
+# My friend said to use [insert distro here], shouldn't i just use that?
+
+
+While i wouldn't recommend just blindly going with what your friend said, because their use-case might differ from yours especially if they're an experienced user, you *should* at least go check what distro family your friend's distro is in.
+
+Chances are, you'll be going to said friend when you have problems, in which case it'll help if you're running a distro that works similarly to theirs. That does *not* mean you have to run the exact same distribution. Just the same family is enough. If your friend runs base arch, you could consider running cachyOS or endeavourOS. if your friend runs a specific power-user flavour of debian, you could consider running linux mint debian edition. If your friend runs bazzite, you could consider running fedora. 
+
+
 # Hey, i want to run x software, i need a distro that can do that
 
 Generally, running specific pieces of software isn't really down to the distro, especially if you're intending to carry software over from windows.
