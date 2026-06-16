@@ -63,7 +63,7 @@ This is generally split by family, as all distributions in the same family use t
 
 Pick one of these three, then move on to the next section.
 
-Do note, this is about what you'll find in these distributions *at base*, you can of course add repositories that give you more up-to-date software on Debian, or go the other way around switching to an "LTS" repository on Arch. these have to be done manually afterwards and thus, it is better to pick a distro family that defaults to what you want.  
+Do note, this is about what you'll find in these distributions *at base*, you can of course add repositories that give you more up-to-date software on Debian, or go the other way around switching to a more "stable" repository on Arch. these have to be done manually afterwards and thus, it is better to pick a distro family that defaults to what you want.  
 
 # Desktop environment
 
@@ -97,7 +97,7 @@ You can find Fedora with GNOME here: [https://fedoraproject.org/workstation/](ht
 
 For Ubuntu/Debian based distro's:  
 Ubuntu flavours can be found here: [https://ubuntu.com/desktop/flavors](https://ubuntu.com/desktop/flavors)  
-Linux min can be found here: [https://linuxmint.com/download.php](https://linuxmint.com/download.php)
+Linux mint can be found here: [https://linuxmint.com/download.php](https://linuxmint.com/download.php)
 
 for Arch based distro's:  
 CachyOS list of desktop environments: [https://wiki.cachyos.org/installation/desktop_environments/](https://wiki.cachyos.org/installation/desktop_environments/)
@@ -129,6 +129,13 @@ However, if you change your mind on the desktop environment, you can always inst
 While i wouldn't recommend just blindly going with what your friend said, because their use-case might differ from yours especially if they're an experienced user, you *should* at least go check what distro family your friend's distro is in.
 
 Chances are, you'll be going to said friend when you have problems, in which case it'll help if you're running a distro that works similarly to theirs. That does *not* mean you have to run the exact same distribution. Just the same family is enough. If your friend runs base arch, you could consider running cachyOS or endeavourOS. if your friend runs a specific power-user flavour of debian, you could consider running linux mint debian edition. If your friend runs bazzite, you could consider running fedora. 
+
+
+# What is an immutable/atomic distribution and should i use one?
+
+The basics is: an immutable or atomic distribution is designed in such a way that makes it much harder to mess up, through things like making the root filesystem read-only.
+
+This may sound appealing, but as a new user, you should not use one. These distributions *do* make it harder to break the system, but they're also harder to modify or troubleshoot. If something does break, an inexperienced user will have a rough time fixing it on an atomic or immutable distribution. As such i cannot recommend you start with one. 
 
 
 # Hey, i want to run x software, i need a distro that can do that
