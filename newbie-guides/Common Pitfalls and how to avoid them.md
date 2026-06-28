@@ -54,3 +54,16 @@ Due to how ARM currently works and a lack of standardization for the *device tre
 - someone went through the insane amount of effort it takes to reverse-engineer the device tree (as you can imagine, very rare)
 
 Recently, microsoft has announced they'll be introducing a standard for this, in part because of Nvidia's RTX Spark announcement. Things will get better, but it will take time. 
+
+# pitfall 13: laptop lids
+
+
+# pitfall 14: fear of the terminal
+
+
+# pitfall 15: niche distro's
+
+
+# pitfall 16: atomic distro's
+
+

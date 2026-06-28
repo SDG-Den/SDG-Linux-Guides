@@ -29,3 +29,7 @@ WIP
 
 
 
+# my system suddenly takes *really* long to boot
+
+
+
