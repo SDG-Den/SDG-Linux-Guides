@@ -43,7 +43,30 @@ this command is actually two commands, the first updates your package database, 
 
 ubuntu and debian also have dpkg, which is a tool to handle .deb files.
 
-these are used for a more manual install, which can be useful. Do keep in mind, dpkg doesn't install dependencies. Best used for standalone binaries or as a last resort.  
+these are used for a more manual install, which can be useful. Do keep in mind, dpkg doesn't neccesarily install dependencies. Best used for standalone binaries or as a last resort.  
+
+lastly, ubuntu has snap, which is actually integrated into apt but can also be used using the `snap` commandline utility.
+
+snaps are sandboxed programs, which is significantly more secure but this sandboxing can cause issues. 
+
+
+### Fedora, CentOS and RHEL
+
+Fedora and its associated distributions use dnf, which also uses full subommands such as install, update and upgrade
+
+for example:
+sudo dnf install -y cowsay
+
+this will install cowsay and not prompt you for anything (which is what the -y flag does)
+
+dnf uses RPM packages, which can also be installed directly using the rpm utility. just like .deb files and dkpg, rpm and rpm files do not neccesarily install dependencies and are best used for standalone binaries or as a last resort
+
+
+### FlatPak
+
+flatpak is available cross-platform, and uses sandboxed programs with their own separated dependencies, this makes flatpak very versatile and reliable across many distributions. Flatpak is also more secure. This an again cause issues like with snap, but flatpak's implementation is significantly more liked because of the much better control. 
+
+programs like flatseal help you manage your program permissions. 
 
 
 # graphical installers
